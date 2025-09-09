@@ -1,7 +1,7 @@
 const canvas = document.getElementById('deepar-canvas');
 
 const deepAR = new DeepAR({
-  licenseKey: '4a0e65ae03e1dbd74db7c7458680a0f66e83f09a3e1b15dd46ed9eb87fe6c7ce09672baeb2124e33', // <-- from your DeepAR account
+  licenseKey: 'f228aa68f8eb4f7c86aff0726c2d15b6c23a09643a69a19482f8ad4d7e14b71c04e122f48695d2f2', // <-- from your DeepAR account
   canvas: canvas,
   deeparWasmPath: 'DeepAR-Web-v5.6.19/lib/wasm/deepar.wasm',
   callbacks: {
